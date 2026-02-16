@@ -265,7 +265,7 @@ body {
     display: flex;
     max-width: 1100px;
     margin: 80px auto;
-    background-color: rgba(174, 0, 255, 0.801);
+    background-color: rgba(174, 7, 252, 0.329);
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.06);
     overflow: hidden;
@@ -307,7 +307,7 @@ h1 {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #2563eb;
+    color: #2564eb;
     margin-bottom: 15px;
 }
 
