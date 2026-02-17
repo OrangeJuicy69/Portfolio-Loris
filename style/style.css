@@ -269,25 +269,23 @@ body {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.06);
     overflow: hidden;
-    border-color: #89b4fa;
-    border-style: solid;
+    border: 2px solid #89b4fa;
 }
 
+/* COLUMNS */
 .left-column {
     width: 30%;
     background-color: #00000062;
     padding: 50px 40px;
-    border-color: #89b4fa;
-    border-style: solid;
+    border-right: 2px solid #89b4fa;
 }
 
 .right-column {
     width: 70%;
     padding: 60px;
-    border-color: #89b4fa;
-    border-style: solid;
 }
 
+/* TYPO */
 h1 {
     font-size: 32px;
     margin-bottom: 5px;
@@ -330,4 +328,58 @@ ul {
 
 ul li {
     margin-bottom: 8px;
+}
+
+/* =========================
+   📱 MOBILE
+   ========================= */
+@media (max-width: 768px) {
+
+    .resume-container {
+        flex-direction: column;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 25px;
+        border-right: none;
+        border-bottom: 2px solid #89b4fa;
+    }
+
+    .right-column {
+        border-bottom: none;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .job-title {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .section {
+        margin-bottom: 25px;
+    }
+
+    .section h2 {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .job h3 {
+        font-size: 16px;
+    }
+
+    .job span {
+        font-size: 13px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
 }
