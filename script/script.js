@@ -1,6 +1,6 @@
 // ===== KONFIGURATION =====
 const correctHash = "73b8a7f3cffd4f0a177259cd99937603b61ff45cc20c5beb825ce05b71de1283";
-const redirectPage = "../html/index2.html";
+const redirectPage = "./html/index2.html";
 
 // ===== LOGIN BUTTON FUNKTION =====
 async function checkPassword() {
