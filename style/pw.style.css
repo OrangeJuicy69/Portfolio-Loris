@@ -10,6 +10,8 @@ body {
 
 #login {
   text-align: center;
+  font-size: 35px;
+  
 }
 
 input {
@@ -26,4 +28,30 @@ button {
   background: #6c5cff;
   color: white;
   cursor: pointer;
+}
+.ask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 0.9em;
+    color: #bbb;
+    text-align: center;
+}
+@media (min-width: 768px) {
+  input {
+    font-size: 50px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+
+  .ask {
+    font-size: 2.9em;
+    height: 600px;
+  }
 }
