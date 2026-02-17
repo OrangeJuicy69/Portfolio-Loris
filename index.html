@@ -1,114 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Loris Widmer</title>
-		<link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-	</head>
-	<body>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio geschützt</title>
+  <link rel="stylesheet" href="../style/pw.style.css">
+</head>
+<body>
 
 
-
-		<div class="mac">
-			<div class="dots">
-				<div class="mac-button-red"></div>
-				<div class="mac-button-yellow"></div>
-				<div class="mac-button-green"></div>
-
-				<h1 class="name-mac">Loris Widmer</h1>
-			</div>
-
-			<pre class="code">
-<span class="line"><span class="kw">Dev</span> dev = devs.get(<span class="str">"Loris Widmer"</span>);</span>
-<span class="line"><span class="kw">Coffee</span> coffee = <span class="kw">new</span> Coffee(milk, sugar, beans);</span>
-<span class="line">dev.<span class="fn">supplyCoffee</span>(coffee);</span>
-<span class="line"><span class="fn">assert</span>(dev.productivityLevel, <span class="num">100</span>);</span>
-  </pre>
-		</div>
-		<header>
-	<div class="head-name">Loris Widmer</div>
-		<div class="navbar">
-    <a href="index.html"><i class="fa-solid fa-house" style="color: rgba(177, 151, 252, 1);"></i>Home</a>
-    <a href="./html/conatct.html"><i class="fa-solid fa-address-book" style="color: rgba(177, 151, 252, 1);"></i>Contact</a>
-	<a href="./html/resume.html"><i class="fa-solid fa-file" style="color: rgba(177, 151, 252, 1);"></i>Resume</a>
-</div>
-<section>
-  <div class="box-info">
-    <img class="me" src="./photos/1725263242627.jpg" alt="Loris Widmer">
-    <p>
-      Hey, I’m Loris – a passionate Web and App Developer. I create modern, user-friendly websites and apps
-      that not only look great but also perform efficiently. With experience in  
-      React, HTML, CSS; JS, Node.js, I build tailored digital solutions that meet the unique needs of my clients. I love turning creative ideas into
-      functional products and staying at the forefront of the latest web and mobile technologies.
-    </p>
-  </div>
-</section>
-<section>
-
-
-<div class="icons" "left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="gitlab logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberrypi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+<div id="login">
+  <h2>Portfolio geschützt</h2>
+  <input type="password" id="password" placeholder="Passwort">
+  <button onclick="checkPassword()">Login</button>
+  <p id="error"></p>
 </div>
 
-
-
-</section>
-
-<div class="links" align="center">
-
-  <a href="https://www.linkedin.com/in/loris-a-widmer-719284323/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge"
-         height="25"
-         alt="LinkedIn" />
-  </a>
-
-  <a href="https://www.youtube.com/@KandiRaverJuicy" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&logoColor=white&style=for-the-badge"
-         height="25"
-         alt="YouTube" />
-  </a>
-
-  <a href="https://twitter.com/orange_juicy69" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=1DA1F2&logoColor=white&style=for-the-badge"
-         height="25"
-         alt="Twitter" />
-  </a>
-
+<div id="content" style="display:none;">
+  <h1>Mein geheimes Portfolio</h1>
+  <p>Hier sind meine Projekte…</p>
 </div>
 
-
-
-
-
-		</header>
-
-	</body>
+<script src="../script/script.js"></script>
+</body>
 </html>
-
-
